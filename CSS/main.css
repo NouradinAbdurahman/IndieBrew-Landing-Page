@@ -38,8 +38,8 @@ ul {
 .header {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(150deg, rgb(245, 135, 135), white,white, white, white);
-    background-image: linear-gradient(140deg, rgba(248, 157, 157, 0.301), rgba(255, 255, 255, 0.726),rgba(255, 255, 255, 0.726), rgba(255, 255, 255, 0.726), rgba(255, 255, 255, 0.726));
+    background-image: linear-gradient(140deg, rgba(248, 157, 157, 0.301), rgba(255, 250, 240, 0.404),rgba(255, 250, 240, 0.404), rgba(255, 250, 240, 0.404), rgba(255, 250, 240, 0.404));
+    background-image: linear-gradient(140deg, rgba(248, 157, 157, 0.301), rgba(255, 250, 240, 0.404),white, rgba(255, 250, 240, 0.404), rgba(255, 250, 240, 0.404));
 }
 .navBar {
     display: flex;
@@ -134,3 +134,60 @@ ul {
 /*------------------/Hero------------------*/
 
 
+/*--------------- Feed Section ---------------------*/
+.feed-section {
+    width: 100%;
+    background-color: white;
+    background-color: rgb(248, 249, 250);
+    background-color: #fff;
+}
+.feed-content {
+    padding: 100px 0 50px 0;
+}
+.feed-col-left, .feed-col-right  {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 50px;
+}
+.feed-title {
+    color: black;
+    font-size: 2.5rem;
+}
+.feed-image {
+    width: 100%;
+}
+.feed-image img {
+    width: 60%;
+}
+.feed-col-left .feed-image {
+    text-align: center;
+}
+.feed-col-right .feed-title {
+    padding-top: 120px;
+}
+.feed-desc {
+    color: #444;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    padding-bottom: 10px;
+}
+.feed-col-right-paragraph a, .feed-col-left-paragraph a {
+    color: rgb(0, 89, 255);
+    font-weight: 900;
+    transition: color .3s ease-in-out;
+    -webkit-transition: color .3s ease-in-out;
+    -moz-transition: color .3s ease-in-out;
+    -ms-transition: color .3s ease-in-out;
+    -o-transition: color .3s ease-in-out;
+}
+.feed-col-right-paragraph a:hover, .feed-col-left-paragraph a:hover {
+    color: rgb(0, 60, 170);
+}
+.feed-col-right-paragraph a span, .feed-col-left-paragraph a span  {
+    display: inline-block;
+    color: rgb(0, 89, 255);
+    font-size: 15px;
+    vertical-align: middle;
+}
