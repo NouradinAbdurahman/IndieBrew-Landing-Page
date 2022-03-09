@@ -594,6 +594,12 @@ input[type="checkbox"] {
     }
 }
 @media screen and (max-width: 480px) {
+    .nav .btn {
+        width: 220px;
+    }
+    .nav .btn .link {
+        font-size: 1.2rem;
+    }
     .hero-card-title  {
         font-size: 1.5rem;
         margin-top: 50px;
