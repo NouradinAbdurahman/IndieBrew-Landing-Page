@@ -455,13 +455,14 @@ input[type="checkbox"] {
         cursor: pointer;
     }
     .index .nav.active {
+        display: block;
         right: 0%;
     }
     .navBar {
         position: relative;
     }
     .index .nav {
-        display: block;
+        display: none;
         position: absolute;
         content: " ";
         width: 100%;
@@ -477,7 +478,7 @@ input[type="checkbox"] {
         -moz-transition: right .5s ease-in-out;
         -ms-transition: right .5s ease-in-out;
         -o-transition: right .5s ease-in-out;
-    }
+}
     .index .nav .unOrderList {
        padding: 0px 25px 60px;
     }
