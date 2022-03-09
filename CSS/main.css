@@ -124,6 +124,12 @@ ul {
     line-height: 1.5;
     padding-bottom: 20px;
 }
+.hero-col-right {
+    width: 100%;
+}
+.hero-col-right img {
+    width: 100%;
+}
 .hero .btn {
     margin-bottom: 20px;
 }
@@ -281,3 +287,126 @@ footer {
 
 
 /*--------------- /Footer ------------------ */
+
+
+/*---------------- Sing Up -----------------*/
+.back-arrow {
+    background-color: white;
+    margin-right: 10px;
+    padding: 15px;
+    vertical-align: middle;
+    border: 1px solid black;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: background-color .3s ease-in-out;
+    -webkit-transition: background-color .3s ease-in-out;
+    -moz-transition: background-color .3s ease-in-out;
+    -ms-transition: background-color .3s ease-in-out;
+    -o-transition: background-color .3s ease-in-out;
+}
+.unOrderList span {
+    font-size: 1.3rem;
+    color: #444;
+    text-transform: none;
+    transition: color .3s ease-in-out;
+    -webkit-transition: color .3s ease-in-out;
+    -moz-transition: color .3s ease-in-out;
+    -ms-transition: color .3s ease-in-out;
+    -o-transition: color .3s ease-in-out;
+}
+.unOrderList .singUp:hover span , .unOrderList .singUp:hover .back-arrow  {
+    color: rgb(0, 89, 255);
+    border-color: rgb(0, 89, 255);
+    
+}
+.singUp-content {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+.singUp-title {
+    margin-top: 100px;
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+.singUp-list {
+    color: #444;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    padding: 20px 0;
+}
+.singUp-list li span {
+    display: inline-block;
+    font-size: 1.3rem;
+    font-weight: 900;
+    color: black;
+}
+.singUp-cards:nth-child(1) {
+    margin-right: 50px;
+}
+.form {
+    padding: 70px;
+    background-color: white;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.form-title {
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+form input {
+    width: 100%;
+    padding: 20px;
+    margin: 15px 0;
+    outline: none;
+    border: 1px solid #999;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+form ::placeholder {
+    font-size: 18px;
+}
+form #checkbox {
+    width: unset;
+}
+.terms {
+    display: inline-block;
+    font-size: 1.2rem;
+    vertical-align: middle;
+    text-align: start;
+}
+.terms a {
+    color: rgb(0, 89, 255);
+    font-weight: 900;
+    padding-bottom: 10px;
+    text-decoration: underline;
+    line-height: 1.5;
+}
+.form label {
+    font-size: 1.2rem;
+}
+form #submit {
+    background-color: rgb(0, 89, 255);
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 900;    
+}
+input[type="checkbox"] {
+    min-width: 0.75em;
+    min-height: 0.75em;
+    margin-right: 0.75em;
+    border: 2px solid currentColor;
+    border-radius: 50%;
+    display: inline-block;
+}
