@@ -405,14 +405,6 @@ form #submit {
     color: white;
     font-weight: 900;    
 }
-input[type="checkbox"] {
-    min-width: 0.75em;
-    min-height: 0.75em;
-    margin-right: 0.75em;
-    border: 2px solid currentColor;
-    border-radius: 50%;
-    display: inline-block;
-}
 
 @media screen and (max-width: 1024px){
     .header {
